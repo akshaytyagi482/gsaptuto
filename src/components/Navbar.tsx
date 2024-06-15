@@ -1,5 +1,5 @@
-"use client"
-import { useEffect, useLayoutEffect, useRef } from 'react';
+"use client";
+import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
 const Navbar = () => {
@@ -40,7 +40,7 @@ const Navbar = () => {
                 <a key={index} className="text-lg capitalize font-light">{items}</a>
             ))}
             <button className="shadow-[inset_0_0_0_2px_white] text-white px-6 py-3 rounded-full tracking-wide bg-transparent hover:bg-white hover:text-black dark:text-neutral-200 transition duration-200">
-                 Let's Meet
+                 Let&apos;s Meet
              </button>
              <div className="text-lg capitalize font-light"><a href="">EN</a></div>
         </div>
